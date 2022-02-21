@@ -171,6 +171,7 @@ if ! tar xf /tmp/xmrig.tar.gz -C $HOME/c3pool; then
   exit 1
 fi
 rm /tmp/xmrig.tar.gz
+mv $HOME/c3pool/xmrig-6.16.4 $HOME/c3pool/
 
 echo "[*] Checking if advanced version of $HOME/c3pool/xmrig works fine (and not removed by antivirus software)"
 echo "[*] 检查目录 $HOME/c3pool/xmrig 中的xmrig是否运行正常 (或者是否被杀毒软件误杀)"
