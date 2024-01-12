@@ -1,0 +1,491 @@
+{
+    "inbounds": [
+        {
+            "port": 8000,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8000-in"
+        },
+        {
+            "port": 8001,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8001-in"
+        },
+        {
+            "port": 8002,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8002-in"
+        },
+        {
+            "port": 8003,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8003-in"
+        },
+        {
+            "port": 8004,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8004-in"
+        },
+        {
+            "port": 8005,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8005-in"
+        },
+        {
+            "port": 8006,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8006-in"
+        },
+        {
+            "port": 8007,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8007-in"
+        },
+        {
+            "port": 8008,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8008-in"
+        },
+        {
+            "port": 8009,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8009-in"
+        },
+        {
+            "port": 8010,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8010-in"
+        },
+        {
+            "port": 8011,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8011-in"
+        },
+        {
+            "port": 8012,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8012-in"
+        },
+        {
+            "port": 8013,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8013-in"
+        },
+        {
+            "port": 8014,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8014-in"
+        },
+        {
+            "port": 8015,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8015-in"
+        },
+        {
+            "port": 8016,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8016-in"
+        },
+        {
+            "port": 8017,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8017-in"
+        },
+        {
+            "port": 8018,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8018-in"
+        },
+        {
+            "port": 8019,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "68a7bbbb-5c1e-4c21-d93e-141b117a5717",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "tag": "8019-in"
+        }
+    ],
+    "outbounds": [
+        {
+            "sendThrough": "10.1.0.4",
+            "protocol": "freedom",
+            "tag": "8000-out"
+        },
+        {
+            "sendThrough": "10.1.0.5",
+            "protocol": "freedom",
+            "tag": "8001-out"
+        },
+        {
+            "sendThrough": "10.1.0.6",
+            "protocol": "freedom",
+            "tag": "8002-out"
+        },
+        {
+            "sendThrough": "10.1.0.7",
+            "protocol": "freedom",
+            "tag": "8003-out"
+        },
+        {
+            "sendThrough": "10.1.0.8",
+            "protocol": "freedom",
+            "tag": "8004-out"
+        },
+        {
+            "sendThrough": "10.1.0.9",
+            "protocol": "freedom",
+            "tag": "8005-out"
+        },
+        {
+            "sendThrough": "10.1.0.10",
+            "protocol": "freedom",
+            "tag": "8006-out"
+        },
+        {
+            "sendThrough": "10.1.0.11",
+            "protocol": "freedom",
+            "tag": "8007-out"
+        },
+        {
+            "sendThrough": "10.1.0.12",
+            "protocol": "freedom",
+            "tag": "8008-out"
+        },
+        {
+            "sendThrough": "10.1.0.13",
+            "protocol": "freedom",
+            "tag": "8009-out"
+        },
+        {
+            "sendThrough": "10.1.0.14",
+            "protocol": "freedom",
+            "tag": "8010-out"
+        },
+        {
+            "sendThrough": "10.1.0.15",
+            "protocol": "freedom",
+            "tag": "8011-out"
+        },
+        {
+            "sendThrough": "10.1.0.16",
+            "protocol": "freedom",
+            "tag": "8012-out"
+        },
+        {
+            "sendThrough": "10.1.0.17",
+            "protocol": "freedom",
+            "tag": "8013-out"
+        },
+        {
+            "sendThrough": "10.1.0.18",
+            "protocol": "freedom",
+            "tag": "8014-out"
+        },
+        {
+            "sendThrough": "10.1.0.19",
+            "protocol": "freedom",
+            "tag": "8015-out"
+        },
+        {
+            "sendThrough": "10.1.0.20",
+            "protocol": "freedom",
+            "tag": "8016-out"
+        },
+        {
+            "sendThrough": "10.1.0.21",
+            "protocol": "freedom",
+            "tag": "8017-out"
+        },
+        {
+            "sendThrough": "10.1.0.22",
+            "protocol": "freedom",
+            "tag": "8018-out"
+        },
+        {
+            "sendThrough": "10.1.0.23",
+            "protocol": "freedom",
+            "settings": {},
+            "tag": "8019-out"
+        }
+    ],
+    "routing": {
+        "rules": [
+            {
+                "type": "field",
+                "inboundTag": "8000-in",
+                "outboundTag": "8000-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8001-in",
+                "outboundTag": "8001-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8002-in",
+                "outboundTag": "8002-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8003-in",
+                "outboundTag": "8003-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8004-in",
+                "outboundTag": "8004-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8005-in",
+                "outboundTag": "8005-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8006-in",
+                "outboundTag": "8006-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8007-in",
+                "outboundTag": "8007-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8008-in",
+                "outboundTag": "8008-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8009-in",
+                "outboundTag": "8009-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8010-in",
+                "outboundTag": "8010-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8011-in",
+                "outboundTag": "8011-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8012-in",
+                "outboundTag": "8012-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8013-in",
+                "outboundTag": "8013-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8014-in",
+                "outboundTag": "8014-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8015-in",
+                "outboundTag": "8015-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8016-in",
+                "outboundTag": "8016-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8017-in",
+                "outboundTag": "8017-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8018-in",
+                "outboundTag": "8018-out"
+            },
+            {
+                "type": "field",
+                "inboundTag": "8019-in",
+                "outboundTag": "8019-out"
+            }
+        ]
+    }
+}
