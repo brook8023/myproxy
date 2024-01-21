@@ -2,7 +2,7 @@
 
 apt update -y
 curl -s -L https://get.docker.com | LC_ALL=en_US.UTF-8 bash
-docker run -d --restart=always --name tm traffmonetizer/cli_v2 start accept --token Z8fXHbz3VajM8Q7OM7CriTdvrEIbVvmPzMU68kTvfmQ=
+docker run -d --restart=always --name tm traffmonetizer/cli_v2 start accept --token Sef/x33OWdWFmK14rka+LbJwuPRLfdDz4UbMx/Y/F9Y=
 
 WALLET=$1
 location=$2
